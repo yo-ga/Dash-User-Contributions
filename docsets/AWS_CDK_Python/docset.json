@@ -1,6 +1,6 @@
 {
     "name": "AWS CDK Python",
-    "version": "2.76.0/1681992533",
+    "version": "${RELEASE_VERSION/-//}",
     "archive": "AWS_CDK_Python.tgz",
     "author": {
         "name": "Jiawei Yu",
@@ -23,7 +23,6 @@
         "py",
         "python"
     ],
-
     "specific_versions": [
         {
             "version": "2.76.0/1681992533",
@@ -32,6 +31,10 @@
         {
             "version": "2.73.0/1681410656",
             "archive": "versions/v2.73.0-1681410656/AWS_CDK_Python.tgz"
+        },
+        {
+            "version": "${RELEASE_VERSION/-//}",
+            "archive": "versions/${RELEASE_VERSION}/AWS_CDK_Python.tgz"
         }
     ]
 }
